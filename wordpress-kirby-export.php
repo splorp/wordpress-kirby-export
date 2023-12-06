@@ -40,7 +40,7 @@ function haptiq_kirby_exporter_page() {
 <?php
 	if ( haptiq_kirby_exporter_run() ) {
 ?>
-		<div id="message" class="notice notice-success"><p>🎉 Export complete.</p></div>
+		<div id="message" class="notice notice-success"><p>Export complete.</p></div>
 <?php
 	}
 ?>
